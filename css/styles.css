@@ -1,6 +1,7 @@
 body{
     background-color: #000;
-    color: #76ff03;
+    color: #fff;
+/*    color: #76ff03;*/
 }
 #icon{
     display: block;
@@ -25,8 +26,26 @@ body{
     line-height: 1.1;
     letter-spacing: 0;
     color: white;
-    padding: 0.3em;
+    padding: 0 0.3em;
 }
 #compile:hover{
     color: #76ff03;
+}
+#nrb{
+    padding-left: 5em;
+}
+p{
+    display: inline;
+}
+#date{
+    border-left: 2px solid #76ff03;
+    padding: 0 0.5em;
+    font-size: 1.3em;
+     
+}
+#venue{
+    border-left: 2px solid #76ff03;
+    border-right: 2px solid #76ff03;
+     padding: 0 0.5em;
+    font-size: 1.3em;
 }
