@@ -4,4 +4,29 @@ body{
 }
 #icon{
     display: block;
+/*
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+*/
+    
+}
+.fa{
+    color: #fff;
+    padding: 1em;
+}
+.fa:hover{
+    color: #76ff03;
+}
+#compile{
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-size: 7.5vw;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0;
+    color: white;
+    padding: 0.3em;
+}
+#compile:hover{
+    color: #76ff03;
 }
