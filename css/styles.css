@@ -18,9 +18,7 @@ body{
 .fa:hover{
     color: #76ff03;
 }
-#social{
-    display: block;
-}
+
 #compile{
     font-family: 'IBM Plex Sans Condensed', sans-serif;
     font-size: 7.5vw;
@@ -34,9 +32,11 @@ body{
     color: #76ff03;
 }
 
+/*
 p{
     display: inline;
 }
+*/
 #date{
     border-left: 2px solid #76ff03;
     padding: 0 0.5em;
