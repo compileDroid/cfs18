@@ -3,21 +3,23 @@ body{
     color: #fff;
 /*    color: #76ff03;*/
 }
-#icon{
-    display: block;
-/*
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-*/
+
+.fa{
+
+    padding-bottom: 1.5em;
+    
     
 }
-.fa{
-    color: #fff;
-    padding: 1em;
+/*
+ .fa-calendar{
+    color: #76ff03;
 }
+*/
 .fa:hover{
     color: #76ff03;
+}
+#social{
+    display: block;
 }
 #compile{
     font-family: 'IBM Plex Sans Condensed', sans-serif;
@@ -31,9 +33,7 @@ body{
 #compile:hover{
     color: #76ff03;
 }
-#nrb{
-    padding-left: 5em;
-}
+
 p{
     display: inline;
 }
