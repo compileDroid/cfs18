@@ -25,11 +25,11 @@ body{
     font-weight: 700;
     line-height: 1.1;
     letter-spacing: 0;
-    color: white;
     padding: 0 0.3em;
+    color: #76ff03;
 }
 #compile:hover{
-    color: #76ff03;
+    color: white;
 }
 
 /*
