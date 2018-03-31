@@ -1,5 +1,5 @@
 body{
-    background-color: #000;
+    background-color: black;
     color: #fff;
 /*    color: #76ff03;*/
 }
@@ -10,13 +10,12 @@ body{
     
     
 }
-/*
- .fa-calendar{
-    color: #76ff03;
+ .fa-calendar, .fa-map-marker{
+/*    color:#8ed200;*/
+     color:#b1ef36;
 }
-*/
 .fa:hover{
-    color: #76ff03;
+    color: #b1ef36;
 }
 
 #compile{
@@ -26,12 +25,14 @@ body{
     line-height: 1.1;
     letter-spacing: 0;
     padding: 0 0.3em;
-    color: #76ff03;
+    color: #b1ef36;
     font-family: 'Londrina Outline', cursive;
 }
+/*
 #compile:hover{
     color: white;
 }
+*/
 
 /*
 p{
@@ -39,18 +40,21 @@ p{
 }
 */
 #date{
-    border-left: 2px solid #76ff03;
+/*    border-right: 2px solid #76ff03;*/
     padding: 0 0.5em;
-    font-size: 1.1em;
+/*    font-size: 1.1em;*/
      
 }
 #venue{
-    border-left: 2px solid #76ff03;
-    border-right: 2px solid #76ff03;
+    
+/*    border-right: 2px solid #76ff03;*/
      padding: 0 0.5em;
-    font-size: 1.2em;
+/*    font-size: 1.2em;*/
+}
+#border{
+    border-left: 2px solid #76ff03;
 }
 .jumbotron{
-    background-color: black;
+    background-color:black;
     
 }
