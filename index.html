@@ -72,14 +72,24 @@
 <!--
        
 -->
+    <div id="typed-strings">
+    <p>Typed.js is a <strong>JavaScript</strong> library.</p>
+    <p>It <em>types</em> out sentences.</p>
+</div>
+<span id="typed"></span>
      
       
       </div>
-      
+      <script>
+  var typed = new Typed('.element', {
+    stringsElement: '#typed-strings'
+  });
+</script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="js/typed.js"></script>
   </body>
 </html>
