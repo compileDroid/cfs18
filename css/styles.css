@@ -28,6 +28,15 @@ body{
     color: #b1ef36;
     font-family: 'Londrina Outline', cursive;
 }
+#typed{
+     font-size: 7.5vw;
+   font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0;
+    padding: 0 0.3em;
+    color: #b1ef36;
+    font-family: 'Londrina Outline', cursive;
+}
 /*
 #compile:hover{
     color: white;
